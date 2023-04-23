@@ -12,6 +12,7 @@ const Navbar = (props) => {
     navigate("/login")
     console.log("logout");
     console.log(localStorage.getItem('token'));
+    window.location.reload(true)
   }
 
   return (
